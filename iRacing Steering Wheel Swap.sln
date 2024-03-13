@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iRacing Steering Wheel Swap", "iRacing Steering Wheel Swap.csproj", "{406B477E-26B2-45DB-8516-5BF6208167F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406B477E-26B2-45DB-8516-5BF6208167F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406B477E-26B2-45DB-8516-5BF6208167F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406B477E-26B2-45DB-8516-5BF6208167F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406B477E-26B2-45DB-8516-5BF6208167F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {752061C5-C6AD-4DE3-A9C2-7AFCD7D88747}
+	EndGlobalSection
+EndGlobal
