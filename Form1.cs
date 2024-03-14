@@ -38,10 +38,10 @@ namespace iRacing_Steering_Wheel_Swap
             // Directories for orignial cfg and where custom cfg's are stored
             string originalControlPath = iRacingDirectoryPath + "\\controls.cfg";
             string newControlPath = iRacingControlsDirectoryPath + wheelName;
-            // Throw exception if name field is empty
+            // Draw message box if name field is empty
             if (newWheelName.Text == "")
             {
-                throw new Exception("Error: Must name control file.");
+                System.Windows.Forms.MessageBox.Show("File must have valid name.");
             }
             // Copy currently in use cfg to control directory
             File.Copy(originalControlPath, newControlPath, owstate);
